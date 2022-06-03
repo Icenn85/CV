@@ -199,6 +199,16 @@ ol {
   color: var(--title-color);
 }
 
+.contacts-section__link:hover {
+  color: var(--accent-color);
+}
+
+.contacts-section__icon {
+  margin-right: 10px;
+
+  fill: var(--accent-color);
+}
+
 .language-section {
   padding-left: 15px;
   margin-bottom: 300px;
