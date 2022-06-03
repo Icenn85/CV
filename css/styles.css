@@ -58,16 +58,16 @@ ol {
 }
 
 .main-section {
-  padding-left: 30px;
-  padding-right: 15px;
+  padding-left: 90px;
+  padding-right: 75px;
 }
 
 .about-section__title {
   margin-bottom: 10px;
   font-style: normal;
   font-weight: 700;
-  font-size: 30px;
-  line-height: 1.2;
+  font-size: 45px;
+  line-height: 1.22;
   letter-spacing: 0.05em;
   text-transform: uppercase;
 
@@ -97,8 +97,8 @@ ol {
 
 .work-section__title {
   margin-bottom: 10px;
-  font-size: 16px;
-  line-height: 1.25;
+  font-size: 22px;
+  line-height: 1.23;
   text-align: justify;
   letter-spacing: 0.05em;
   text-transform: uppercase;
@@ -113,8 +113,8 @@ ol {
 .work-section__item-title {
   margin-bottom: 3px;
   font-family: "Open Sans";
-  font-size: 14px;
-  line-height: 1.71;
+  font-size: 16px;
+  line-height: 1.25;
   text-align: justify;
   letter-spacing: 0.05em;
 
@@ -137,8 +137,8 @@ ol {
 
 .education-section__title {
   margin-bottom: 10px;
-  font-size: 16px;
-  line-height: 1.25;
+  font-size: 22px;
+  line-height: 1.23;
   text-align: justify;
   letter-spacing: 0.05em;
   text-transform: uppercase;
@@ -153,8 +153,8 @@ ol {
 .education-section__item-title {
   margin-bottom: 3px;
   font-family: "Open Sans";
-  font-size: 14px;
-  line-height: 1.71;
+  font-size: 16px;
+  line-height: 1.25;
   text-align: justify;
   letter-spacing: 0.05em;
 
@@ -199,7 +199,8 @@ ol {
   color: var(--title-color);
 }
 
-.contacts-section__link:hover {
+.contacts-section__link:hover,
+.contacts-section__link:focus {
   color: var(--accent-color);
 }
 
@@ -216,8 +217,8 @@ ol {
 
 .language-section__title {
   margin-bottom: 10px;
-  font-size: 16px;
-  line-height: 1.25;
+  font-size: 22px;
+  line-height: 1.23;
   text-align: justify;
   letter-spacing: 0.05em;
   text-transform: uppercase;
