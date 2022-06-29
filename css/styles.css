@@ -135,7 +135,7 @@ ol {
 
 .education-section {
   margin-top: 40px;
-  padding-bottom: 700px;
+  
 }
 
 .education-section__title {
@@ -172,6 +172,57 @@ ol {
   letter-spacing: 0.05em;
 
   color: var(--main-text-color);
+}
+
+.projects-section {
+  margin-top: 40px;
+  padding-bottom: 500px;
+}
+
+.projects-section__title {
+  margin-bottom: 10px;
+  font-size: 22px;
+  line-height: 1.23;
+  text-align: justify;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+
+  color: var(--title-color);
+}
+
+.projects-section__text {
+  margin-bottom: 5px;
+  font-family: "Open Sans";
+  font-size: 14px;
+  line-height: 1.71;
+  text-align: justify;
+  letter-spacing: 0.05em;
+
+  color: var(--main-text-color);
+}
+
+.projects-section__list {
+  padding-left: 20px;
+  margin-bottom: 10px;
+}
+
+.projects-section__item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.project-section__link {
+  font-family: "Open Sans";
+  font-size: 14px;
+  line-height: 1.71;
+  text-align: justify;
+  letter-spacing: 0.05em;
+
+  color: var(--title-color);
+}
+
+.projects-section__link:hover,
+.projects-section__link:focus {
+  color: var(--accent-color);
 }
 
 .sidebar-section {
@@ -215,7 +266,7 @@ ol {
 
 .language-section {
   padding-left: 15px;
-  margin-bottom: 700px;
+  margin-bottom:800px;
 }
 
 .language-section__title {
