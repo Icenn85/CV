@@ -8,6 +8,7 @@ body {
   font-family: Raleway, Tahoma, sans-serif;
   background-color: #ffffff;
   color: var(--primary-text-color);
+  
 }
 
 p,
@@ -51,6 +52,7 @@ ol {
   display: flex;
   flex-direction: row-reverse;
   width: 1200px;
+  
   padding: 15px;
   margin: 0 auto;
 
@@ -133,6 +135,7 @@ ol {
 
 .education-section {
   margin-top: 40px;
+  padding-bottom: 700px;
 }
 
 .education-section__title {
@@ -212,7 +215,7 @@ ol {
 
 .language-section {
   padding-left: 15px;
-  margin-bottom: 300px;
+  margin-bottom: 700px;
 }
 
 .language-section__title {
